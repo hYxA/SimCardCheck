@@ -18,9 +18,9 @@ public class Main {
 
         ConfigReader configReader1 = new ConfigReader(filePath);
 
-        MTSWebScraper mtsWebScraper = new
+        MTSWebScraper mtsWebScraper = new MTSWebScraper()
 
-        //        // Передаем значения другим классам
+          // Передаем значения другим классам
 //        AnotherClass anotherClass = new AnotherClass(config.getFirstValue(), config.getSecondValue());
 //        anotherClass.printValues();
     }
