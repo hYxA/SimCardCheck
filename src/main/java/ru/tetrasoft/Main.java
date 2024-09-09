@@ -18,27 +18,13 @@ public class Main {
 
         ConfigReader configReader1 = new ConfigReader(filePath);
 
-        MTSWebScraper mtsWebScraper = new MTSWebScraper()
+        MTSWebScraper mtsWebScraper = new MTSWebScraper();
 
-          // Передаем значения другим классам
-//        AnotherClass anotherClass = new AnotherClass(config.getFirstValue(), config.getSecondValue());
-//        anotherClass.printValues();
+        MTSWebScraper.openLoginPage();
+
     }
 }
 
-//class AnotherClass {
-//    private String value1;
-//    private String value2;
-//
-//    public AnotherClass(String value1, String value2) {
-//        this.value1 = value1;
-//        this.value2 = value2;
-//    }
-//
-//    public void printValues() {
-//        System.out.println("Значение 1: " + value1);
-//        System.out.println("Значение 2: " + value2);
-//    }
 
 
 

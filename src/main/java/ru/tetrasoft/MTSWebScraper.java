@@ -1,14 +1,15 @@
 package ru.tetrasoft;
 
+import org.junit.jupiter.api.AfterAll;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.junit.jupiter.api.*;
+
 import java.util.concurrent.TimeUnit;
 
+
 public class MTSWebScraper {
-    private static WebDriver driver;
+    static ChromeDriver driver = new ChromeDriver();
     private ConfigReader configReader;
 
     void setupTest() {
@@ -28,13 +29,12 @@ public class MTSWebScraper {
         }
     }
 
-    public MTSWebScraper(String chromeDriverPath) {
-        System.setProperty("webdriver.chrome.driver", chromeDriverPath);
+    public MTSWebScraper() {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
-    public void openLoginPage(String url) {
+    static void openLoginPage() {
         driver.get("https://lk-b2b.mts.ru");
     }
 

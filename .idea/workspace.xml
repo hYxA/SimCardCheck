@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f024e0b6-7bed-41c7-bca9-aeed4c913f2b" name="Changes" comment="tupik in main">
+    <list default="true" id="f024e0b6-7bed-41c7-bca9-aeed4c913f2b" name="Changes" comment="tupik in main 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tetrasoft/MTSWebScraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tetrasoft/MTSWebScraper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/tetrasoft/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tetrasoft/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,12 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1725626801989</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="tupik in main 2">
+      <option name="closed" value="true" />
+      <created>1725634898570</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725634898570</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tupik in main" />
-    <option name="LAST_COMMIT_MESSAGE" value="tupik in main" />
+    <MESSAGE value="tupik in main 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="tupik in main 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -90,6 +104,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/ru/tetrasoft/PhoneDataChecker.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/tetrasoft/MTSWebScraper.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/tetrasoft/MTSWebScraper.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/tetrasoft/MTSWebScraper.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/tetrasoft/MTSWebScraper.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
