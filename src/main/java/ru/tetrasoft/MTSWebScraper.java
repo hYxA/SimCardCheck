@@ -22,7 +22,7 @@ public class MTSWebScraper {
 
     // Закрытие ChromeDriver
     @AfterAll
-    static void teardown() {
+    static void ChromeDriverdown() {
         if (driver != null) {
             driver.quit();
             driver = null;
